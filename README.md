@@ -7,10 +7,10 @@
 - ต้องการให้มีการทำนายสถานะของร่างกายขณะนั้นว่า นั่ง นอน หรือเดินแล้วทำการส่งผ่านทาง LINE Application 
 - ต้องการให้มีการเก็บเวลาทั้งหมดที่ร่างกายเดินในแต่ละวั 
 - สิ่งที่ใช้
-1.HiveMQ
-2. LINE Bot& LIFF 
-- topic : cn466/natthaporn/backache/#
-- payload: การเคลื่อนที่(x,y,z) และสถานะการเคลื่อนไหว
+  1.HiveMQ
+  2. LINE Bot& LIFF 
+* topic : cn466/natthaporn/backache/#
+* payload: การเคลื่อนที่(x,y,z) และสถานะการเคลื่อนไหว
 3. Cucumber RS
 4. Cloud service : Heroku
 5. Web API :  Fetch API
