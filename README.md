@@ -6,6 +6,13 @@
 ### Requirement
 > 1. ต้องการให้มีการทำนายสถานะของร่างกายขณะนั้นว่า นั่ง นอน หรือเดินแล้วทำการส่งผ่านทาง LINE Application 
 > 2. ต้องการให้มีการเก็บเวลาทั้งหมดที่ร่างกายเดินในแต่ละวั
+> 3. สิ่งที่ใช้
+> HiveMQ
+> LINE Bot& LIFF : topic : cn466/natthaporn/backache/#
+    payload: การเคลื่อนที่(x,y,z) และสถานะการเคลื่อนไหว
+> Cucumber RS
+> Cloud service : Heroku
+> Web API :  Fetch API
 
 ### Design
 - ใช้ cucumber rs ในการรับค่า x,y,z ของร่างกาย
