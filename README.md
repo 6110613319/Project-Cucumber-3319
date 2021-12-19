@@ -23,7 +23,8 @@
   - LINE Bot& LIFF 
   - Cucumber RS
   - Cloud service 
-    - Heroku
+    - Heroku 
+    - Firebase
   - Web API 
     - Fetch API
 
