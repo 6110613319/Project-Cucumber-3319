@@ -8,11 +8,15 @@
 2. ต้องการให้มีการเก็บเวลาทั้งหมดที่ร่างกายเดินในแต่ละวั 
 3. สิ่งที่ใช้
   - HiveMQ
-  - LINE Bot& LIFF 
     - topic : cn466/natthaporn/backache/#
     - payload: การเคลื่อนที่(x,y,z) และสถานะการเคลื่อนไหว
-  - Cucumber RS- Cloud service : Heroku
-  - Web API :  Fetch API
+  - Edge Impulse
+  - LINE Bot& LIFF 
+  - Cucumber RS
+  - Cloud service 
+    - Heroku
+  - Web API 
+    - Fetch API
 
 ### Design
 - ใช้ cucumber rs ในการรับค่า x,y,z ของร่างกาย
@@ -23,11 +27,3 @@
 
 ### Test
 
-- **HiveMQ**
-    topic : cn466/natthaporn/backache/#
-    payload: การเคลื่อนที่(x,y,z) และสถานะการเคลื่อนไหว
-- **LINE bot**
-    1. ส่งการแจ้งเตือนหากร่างกายมีการเคลื่อนไหวร่างกายเปลี่ยนแปลงไปจากก่อนหน้า
-    2. มีการรับข้อความมาแล้วมีการส่งข้อความตอบกลับไป
-- **บอร์ด Cucumber RS**
-- **Cloud service**
